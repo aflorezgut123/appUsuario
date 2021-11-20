@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navCreateUser"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        android:title="Add User"
+        ></item>
+    <item
+        android:id="@+id/navUserList"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="User List"
+        ></item>
+    <item
+        android:id="@+id/navInfo"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Info"
+        ></item>
+</menu>
