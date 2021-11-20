@@ -45,8 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
-            android:tooltipText=""
-            />
+            android:tooltipText="" />
 
         <TextView
             android:id="@+id/idtextgenre"
@@ -86,8 +85,7 @@
             android:id="@+id/btnGuardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guardar"
-            android:onClick="Guardar"/>
+            android:text="Guardar" />
     </LinearLayout>
 
 </RelativeLayout>
