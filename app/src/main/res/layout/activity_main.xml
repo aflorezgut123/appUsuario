@@ -10,7 +10,8 @@
         android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/bottomNavContainer"></FrameLayout>
+        android:layout_above="@id/bottomNavContainer"
+        android:tooltipText="Fragmento inicial vacio"></FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavContainer"
