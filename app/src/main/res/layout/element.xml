@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:id="@+id/tvName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
-        <TextView
-            android:id="@+id/tvDesc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:backgroundTint="#622196F3"
 
-        <Button
-            android:id="@+id/tvBottom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="VIEW MORE" />
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:id="@+id/colo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"></TextView>
+
+            <Button
+                android:id="@+id/tvBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIEW MORE" />
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
