@@ -1,12 +1,15 @@
 package co.org.poli.appusuarios;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class User implements Serializable {
     private String name;
     private String genre;
     private String description;
     private String urlImage;
+
+    public User() {}
 
     public User(String name, String genre, String description, String urlImage) {
         this.name = name;

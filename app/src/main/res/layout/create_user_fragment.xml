@@ -29,11 +29,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:minHeight="48dp"
-            android:onClick="limpiarTexto"
-            android:text="Ingrese el texto" />
+            android:inputType="textPersonName"
+            />
 
         <TextView
-            android:id="@+id/idTextDesc"
+            android:id="@+id/idGenre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Genero"
@@ -45,11 +45,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
-            android:tooltipText=""
-            />
+            android:tooltipText="" />
 
         <TextView
-            android:id="@+id/idtextgenre"
+            android:id="@+id/idTextGenre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Descripcion"
@@ -63,7 +62,7 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="Ingrese el texto" />
+            />
 
         <TextView
             android:id="@+id/textView7"
@@ -79,15 +78,14 @@
             android:layout_height="83dp"
             android:ems="10"
             android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="Ingrese el texto" />
+            android:inputType="textMultiLine" />
 
         <Button
             android:id="@+id/btnGuardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guardar"
-            android:onClick="Guardar"/>
+            android:onClick="Guardar"
+            android:text="Guardar" />
     </LinearLayout>
 
 </RelativeLayout>
