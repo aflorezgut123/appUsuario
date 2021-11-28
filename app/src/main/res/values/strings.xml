@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">appUsuarios</string>
     <string name="hello"> Hi!!!</string>
+    <string name="autor1">Mi nombre es Luis Roah, Ingeniero de sistemas;
+        me gusta aprender, montar cicla, amar la naturaleza y cuidar la vida</string>
+    <string name="autor2">Mi nombre es Anderson, Ingeniero de sistemas....
+        </string>
 </resources>
