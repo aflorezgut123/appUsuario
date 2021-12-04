@@ -20,23 +20,37 @@ public class UserlistFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         fillData();
-        View fragmentView = inflater.inflate(R.layout.user_list_fragment, container, false);
-        rvTeamsList = fragmentView.findViewById(R.id.rvUserListp);
+        View fragmentView = inflater.inflate(R.layout.element, container, false);
+        rvTeamsList = fragmentView.findViewById(R.id.idText);
         rvTeamsList.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvTeamsList.setAdapter(new UserAdapter(dataset));
         return fragmentView;
     }
 
     private void fillData(){
+        //llenarData();
         dataset = new User[3];
+        for (int cont = 0; cont < dataset.length; cont++ ){
+           // dataset[cont] = new User(dataset[cont].getName() + cont,dataset[cont].getGenre(),dataset[cont].getDescription(),dataset[cont].getUrlImage());
+            dataset[cont] = new User("Andrey"+cont,"Male","Engineer"+cont,"https://www.esic.edu/sites/default/files/rethink/c7a84832-data-engineer.jpg");
+        }
+    }
 
-        dataset[0] = new User("pedro","Male", "System Enginer","");
-        dataset[1] = new User("pedro","Male", "System Enginer","");
-        dataset[2] = new User("pedro","Male", "System Enginer","");
-        /*for (int cont = 0; cont < dataset.length; cont++ ){
-            dataset[cont].name = "Element"+cont;
-            dataset[cont].description = "Element"+cont;
-            dataset[cont].image = "Element"+cont;
-        }*/
+    private void llenarData(){
+
+        dataset[0].setUserId("Jose");
+        dataset[0].setId("Male");
+        dataset[0].setTitle("He is a Teacher with concepts of System Engineer");
+        dataset[0].setBody("https://img.lovepik.com/original_origin_pic/18/08/07/4e59abef8ee0df40cdfb674c0050c2d6.png_wh860.png");
+//        dataset[1].setName("Daniel");
+//        dataset[1].setGenre("Male");
+//        dataset[1].setDescription("He is a Artist of the university of the Andes");
+//        dataset[1].setUrlImage("https://img.lovepik.com/original_origin_pic/18/08/07/4e59abef8ee0df40cdfb674c0050c2d6.png_wh860.png");
+//        dataset[2].setName("Maria");
+//        dataset[2].setGenre("Feme");
+//        dataset[2].setDescription("She is an arquitec and a medic");
+//        dataset[2].setUrlImage("https://img.lovepik.com/original_origin_pic/18/08/07/4e59abef8ee0df40cdfb674c0050c2d6.png_wh860.png");
+//        dataset[0] = new User("Jose","Male","He is a Teacher with concepts of System Engineer","https://img.lovepik.com/original_origin_pic/18/08/07/4e59abef8ee0df40cdfb674c0050c2d6.png_wh860.png");
+
     }
 }

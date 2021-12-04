@@ -3,6 +3,6 @@
     <string-array name="opciones">
     <item>Hombre</item>
     <item>Mujer</item>
-    <item>Indeciso</item>
+    <item>Por definir binario</item>
     </string-array>
 </resources>

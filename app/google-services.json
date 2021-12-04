@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188174777899",
+    "project_id": "appusuarios-1c4d6",
+    "storage_bucket": "appusuarios-1c4d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188174777899:android:30caac35ceddb6eb18f46e",
+        "android_client_info": {
+          "package_name": "co.org.poli.appusuarios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188174777899-rmgudb690vmia611ei0v3oulvk43j9s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV3WAe3sxMWvGQ2i5j47hTpxhxudj04nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188174777899-rmgudb690vmia611ei0v3oulvk43j9s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

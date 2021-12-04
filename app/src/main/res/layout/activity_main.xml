@@ -11,7 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottomNavContainer"
-        android:tooltipText="Fragmento inicial vacio"></FrameLayout>
+        android:tooltipText="Fragmento inicial vacio">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:layout_gravity="center"
+            android:textSize="25sp"/>
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavContainer"

@@ -1,49 +1,52 @@
 package co.org.poli.appusuarios;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class User implements Serializable {
-    private String name;
-    private String genre;
-    private String description;
-    private String urlImage;
+    private String userId;
+    private String Id;
+    private String Title;
+    private String body;
 
-    public User(String name, String genre, String description, String urlImage) {
-        this.name = name;
-        this.genre = genre;
-        this.description = description;
-        this.urlImage = urlImage;
+    public User() {}
+
+    public User(String name, String id, String title, String body) {
+        this.userId = name;
+        this.Id = id;
+        this.Title = title;
+        this.body = body;
     }
 
-    public String getName() {
-        return name;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
-    public String getGenre() {
-        return genre;
+    public String getId() {
+        return Id;
     }
 
-    public void setGenre(String genre) {
-        this.genre = genre;
+    public void setId(String id) {
+        this.Id = id;
     }
 
-    public String getDescription() {
-        return description;
+    public String getTitle() {
+        return Title;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setTitle(String title) {
+        this.Title = title;
     }
 
-    public String getUrlImage() {
-        return urlImage;
+    public String getBody() {
+        return body;
     }
 
-    public void setUrlImage(String urlImage) {
-        this.urlImage = urlImage;
+    public void setBody(String Body) {
+        this.body = Body;
     }
 }
