@@ -24,7 +24,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ID" />
+            android:text="ID"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/etUserName"

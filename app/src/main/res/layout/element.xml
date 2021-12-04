@@ -12,29 +12,35 @@
         app:cardCornerRadius="10dp">
 
         <LinearLayout
-            android:id="@+id/colo"
+            android:id="@+id/linearLay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvName"
+                android:id="@+id/text_userId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
             <TextView
-                android:id="@+id/tvDesc"
+                android:id="@+id/text_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18dp"></TextView>
 
-            <Button
-                android:id="@+id/tvBottom"
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="VIEW MORE" />
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/text_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"></TextView>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
